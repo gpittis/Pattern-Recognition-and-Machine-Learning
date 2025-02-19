@@ -19,8 +19,8 @@ This part involves the development of a **Maximum Likelihood (ML) classifier** t
 - Evaluate the classification performance
   - 1 sample is misclassified
 
-## Part B: Bayesian Parameter Estimation
-Extending the previous approach by estimating the unknown parameter $\theta$ using **Bayesian inference**.
+## Part B: Bayesian Estimation Method
+Part B is an extension of Part A. In this part, we implement a **Bayesian classifier** to estimate the unknown parameter $\theta$.
 
 ### Implementation Steps:
 - Compute the posterior distribution $p(\theta|D)$.
