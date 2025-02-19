@@ -82,7 +82,7 @@ Use of the **Iris dataset** from the **sklearn library** and application of two 
   - Finding the overall best model
   - Application of PCA (Principal Component Analysis) method to the overall best model
   - Application of the final, trained model to the test set
-  - Extraction of a vector named labels25.npy, representing the labels
+  - Extraction of a vector named `labels25.npy`, representing the labels
 
 ## Explanation of code files
 - The file `Team25-AC.ipynb` contains the solutions for parts A, B, and C
