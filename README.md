@@ -23,23 +23,8 @@ This part involves the development of a **Maximum Likelihood (ML) classifier** t
 Part B is an extension of Part A. In this part, we implement a **Bayesian classifier** to estimate the unknown parameter $\theta$.
 
 ### Implementation Steps:
-
-- Plot the posterior probability densities \( p(\theta | D_1) \) and \( p(\theta | D_2) \).
-- Observe the relationship between the posterior probabilities and the prior \( p(\theta) \).
-- **Hint**: For computing the integrals, you can use the trapezoidal rule.
-
-- Implement a function `predict` that calculates the values of the discriminant function:
-  \[
-  h(x) = \log P(x | D_1) - \log P(x | D_2) + \log P(\omega_1) - \log P(\omega_2)
-  \]
-- Observe the values of \( h(x) \) in relation to your data sets. Plot the results.
-
-- Evaluate the Bayesian estimation method in comparison to the maximum likelihood estimation method for this specific example.
-- Discuss the difference between the two approaches and suggest where you think the differences arise in this particular case.
-
-
-- Compute the posterior distribution $p(\theta|D)$.
-- Visualize the posterior densities $p(\theta|D_1)$ and $p(\theta|D_2)$.
+- Plotting of the posterior probability densities $p(\theta|D_1)$ and $p(\theta|D_2)$.
+- Plotting of the prior probability density $p(\theta)$
 - Implement a **Bayesian classifier** using the decision function:
 
  $h(x)$ = $\log P(x | D_1)$ - $\log P(x | D_2)$ + $\log P(\omega_1)$ - $\log P(\omega_2)$
