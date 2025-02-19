@@ -49,9 +49,14 @@ Use of the **Iris dataset** from the **sklearn library** and application of two 
 - Plotting the decision boundaries of the classifier for the best result 
 
 ### Section 2: Random Forest
-- Create a **Random Forest classifier** with **100 trees** using **bootstrap sampling**.
-- Compare with the simple **Decision Tree**.
-- Analyze the impact of **$\gamma$** (sample percentage) on performance.
+- Creation of a Random Forest classifier with 100 trees using the Bootstrap technique
+- 50% of the samples from the previous training set are denoted as set A
+- Creation of 100 new training sets (one for each tree), with each set using γ = 50% of set A
+- Evaluation of the algorithm using the set classified in the previous section
+- Consistency of the maximum depth across all trees
+- Finding the best classification accuracy
+- Finding the optimal tree depth
+- Evaluation of the effect of $\gamma$ on the algorithm's performance.
 
 ## Part D: Large Dataset Classification
 Using the dataset **TV.csv** to train a classifier with **8743 samples** and **224 features**.
