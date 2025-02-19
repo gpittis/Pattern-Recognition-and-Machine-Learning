@@ -20,7 +20,7 @@ Extending the previous approach by estimating the unknown parameter \theta$ usin
 - Visualize the posterior densities \boldsymbol{$p(\theta|D_1)$} and \boldsymbol$p(\theta|D_2)$}.
 - Implement a **Bayesian classifier** using the decision function:
 
- \boldsymbol{$h(x)$ = $\log P(x | D_1)$ - $\log P(x | D_2)$ + $\log P(\omega_1)$ - $\log P(\omega_2)$}
+ $\boldsymbol{h(x)}$ = $\boldsymbol{\log P(x | D_1)}$ - $\boldsymbol{\log P(x | D_2)}$ + $\boldsymbol{\log P(\omega_1)}$ - $\boldsymbol{\log P(\omega_2)}$
 
 - Compare **ML** and **Bayesian** methods.
 
