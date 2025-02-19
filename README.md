@@ -58,14 +58,24 @@ Use of the **Iris dataset** from the **sklearn library** and application of two 
 - Finding the optimal tree depth
 - Evaluation of the effect of $\gamma$ on the algorithm's performance.
 
-## Part D: Large Dataset Classification
-Using the dataset **TV.csv** to train a classifier with **8743 samples** and **224 features**.
+## Part D: Classification Algorithm Development
 
-### Implementation Steps:
-- **Feature selection** and **preprocessing**.
-- Train a classifier (e.g., **SVM, Random Forest, Neural Networks**).
-- Evaluate the model on **datasetTest.csv**.
-- Export predictions as a **numpy array**.
+- **Dataset**:  
+  - `datasetTV.csv` as the training set.  
+  - 8743 samples with 224 features per sample, followed by a label (1,...,5) in the last column.
+  
+- **Task**:  
+  - Classification algorithm using any chosen method.  
+  - Optional feature preprocessing as deemed necessary.
+  
+- **Test Set**:  
+  - `datasetTest.csv` as the test set.  
+  - 6955 samples without provided labels.
+
+- **Model Application**:  
+  - Application of the final, trained model to the test set.  
+  - Extraction of a vector `labelsX` representing the predicted labels.
+
 
 ## Collaborator
 - [Anastasis Gourdomichalis](https://github.com/anasgourd)  
