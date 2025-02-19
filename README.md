@@ -14,8 +14,10 @@ This part involves the development of a **Maximum Likelihood (ML) classifier** t
 - Use the discriminant function :
   - $g(x) = \log P(x | \hat{\theta}_1) - \log P(x | \hat{\theta}_2) + \log P(\omega_1) - \log P(\omega_2)$
 - And classify the two sets of values.
-- Implement the decision function and classify the data.
-- Analyze and visualize the results.
+- Plot $g(x)$ alongside the samples
+  - The decision boundary is : $g(x) = 0$
+- Evaluate the classification performance
+  - 1 sample is misclassified
 
 ## Part B: Bayesian Parameter Estimation
 Extending the previous approach by estimating the unknown parameter $\theta$ using **Bayesian inference**.
