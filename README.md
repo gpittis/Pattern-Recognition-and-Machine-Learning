@@ -16,7 +16,7 @@ In this section, a **Maximum Likelihood (ML) classifier** is implemented based o
 Extending the previous approach by estimating the unknown parameter \theta$ using **Bayesian inference**.
 
 ### Implementation Steps:
-- Compute the posterior distribution $\mathbf{p(\theta|D)}$.
+- Compute the posterior distribution $$\mathbf{p(\theta|D)}$$.
 - Visualize the posterior densities $p(\theta|D_1)$ and $p(\theta|D_2)$.
 - Implement a **Bayesian classifier** using the decision function:
 
