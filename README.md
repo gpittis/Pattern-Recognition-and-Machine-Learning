@@ -17,13 +17,10 @@ Extending the previous approach by estimating the unknown parameter $\theta$ usi
 
 ### Implementation Steps:
 - Compute the posterior distribution $p(\theta|D)$.
-- Visualize the posterior densities $p(\theta|D_1)$ and $p(\theta|D_2)$.
+- Visualize the posterior densities **$p(\theta|D_1)$** and **$p(\theta|D_2)$**.
 - Implement a **Bayesian classifier** using the decision function:
 
-  <div align="center">
-  \( h(x) = \log P(x | D_1) - \log P(x | D_2) + \log P(\omega_1) - \log P(\omega_2) \)
-</div>
-
+  **$h(x) = $\log P(x | D_1)$ - $\log P(x | D_2)$ + $\log P(\omega_1)$ - $\log P(\omega_2)$**
 
 - Compare **ML** and **Bayesian** methods.
 
@@ -39,7 +36,7 @@ Using the **Iris dataset** from the `sklearn` library and applying two classific
 ### Section 2: Random Forest
 - Create a **Random Forest classifier** with **100 trees** using **bootstrap sampling**.
 - Compare with the simple **Decision Tree**.
-- Analyze the impact of $\gamma$ (sample percentage) on performance.
+- Analyze the impact of **$\gamma$** (sample percentage) on performance.
 
 ## Part D: Large Dataset Classification
 Using the dataset **TV.csv** to train a classifier with **8743 samples** and **224 features**.
