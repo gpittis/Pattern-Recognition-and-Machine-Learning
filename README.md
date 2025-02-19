@@ -60,18 +60,18 @@ Use of the **Iris dataset** from the **sklearn library** and application of two 
 
 ## Part D: Classification Algorithm Development
 
-- **Dataset**:  
+- **Training Set**:  
   - `datasetTV.csv` as the training set.  
   - 8743 samples with 224 features per sample, followed by a label (1,...,5) in the last column.
+ 
+- **Test Set**:  
+  - `datasetTest.csv` as the test set.  
+  - 6955 samples without provided labels.
   
 - **Task**:  
   - Classification algorithm using any chosen method.  
   - Optional feature preprocessing as deemed necessary.
   
-- **Test Set**:  
-  - `datasetTest.csv` as the test set.  
-  - 6955 samples without provided labels.
-
 - **Model Application**:  
   - Application of the final, trained model to the test set.  
   - Extraction of a vector `labelsX` representing the predicted labels.
