@@ -8,7 +8,7 @@ In this section, a **Maximum Likelihood (ML) classifier** is implemented based o
 
 ### Implementation Steps:
 - Estimate parameters using the ML method.
-- Visualize log-likelihood functions as a function of $\theta$.
+- Visualize log-likelihood functions as a function of $\boldsymbol{$\theta$}.
 - Implement the decision function and classify the data.
 - Analyze and visualize the results.
 
@@ -16,11 +16,11 @@ In this section, a **Maximum Likelihood (ML) classifier** is implemented based o
 Extending the previous approach by estimating the unknown parameter $\theta$ using **Bayesian inference**.
 
 ### Implementation Steps:
-- Compute the posterior distribution $p(\theta|D)$.
-- Visualize the posterior densities **$p(\theta|D_1)$** and **$p(\theta|D_2)$**.
+- Compute the posterior distribution $\boldsymbol{$p(\theta|D)$}.
+- Visualize the posterior densities $\boldsymbol{$p(\theta|D_1)$} and $\boldsymbol$p(\theta|D_2)$}.
 - Implement a **Bayesian classifier** using the decision function:
 
-  **$h(x) = $\log P(x | D_1)$ - $\log P(x | D_2)$ + $\log P(\omega_1)$ - $\log P(\omega_2)$**
+ $\boldsymbol{$h(x)$ = $\log P(x | D_1)$ - $\log P(x | D_2)$ + $\log P(\omega_1)$ - $\log P(\omega_2)$}
 
 - Compare **ML** and **Bayesian** methods.
 
