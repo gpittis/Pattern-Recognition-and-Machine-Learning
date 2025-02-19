@@ -8,7 +8,7 @@ This part involves the development of a **Maximum Likelihood (ML) classifier** t
 
 ### Implementation Steps:
 - Estimate the parameters $\hat{\theta}_1$ and $\hat{\theta}_2$ using the ML classifier for both classes:
-  - For class ${\omega}_1$, the data is: ${D}_1$ = $[2.8 , −0.4 , −0.8 , 2.3 , −0.3 , 3.6 , 4.1]$
+  - For class ${\omega}_1$, the data is: ${D}_1$ = [$2.8$ , −$0.4$ , −$0.8$ , $2.3$ , −$0.3$ , $3.6$ , $4.1$]
 - Estimate parameters using the ML method.
 - Visualize log-likelihood functions as a function of $\theta$.
 - Implement the decision function and classify the data.
