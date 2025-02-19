@@ -40,10 +40,13 @@ Use of the **Iris dataset** from the **sklearn library** and application of two 
 - **Random Forest**
 
 ### Section 1: Decision Tree
-- Use the `DecisionTreeClassifier`.
-- Train on **50%** of the data, evaluate on the remaining **50%**.
-- Report classification accuracy and determine the **optimal depth**.
-- Visualize **decision boundaries**.
+- Isolation of the first two features of the dataset
+- Use of the Decision Tree classifier
+- Training on 50% of the data
+- Evaluation on the remaining 50% of the data
+- Finding the best classification accuracy
+- Finding the optimal tree depth
+- Plotting the decision boundaries of the classifier for the best result 
 
 ### Section 2: Random Forest
 - Create a **Random Forest classifier** with **100 trees** using **bootstrap sampling**.
