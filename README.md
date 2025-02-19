@@ -7,8 +7,8 @@ This assignment is part of the **Pattern Recognition & Machine Learning** course
 This part involves the development of a **Maximum Likelihood (ML) classifier** to recognize stress in users of a video game, based on data derived from button pressure patterns. The goal is to evaluate the reliability of the variable $x$. This evaluation is based on data from 12 users, 7 of whom did not feel stressed and 5 felt stressed.
 
 ### Implementation Steps:
-- Estimate the parameters $\hat{\theta}_1$
-
+- Estimate the parameters $\hat{\theta}_1$ and $\hat{\theta}_2$ using the ML classifier for both classes:
+  - For class ${\omega}_1$
 - Estimate parameters using the ML method.
 - Visualize log-likelihood functions as a function of $\theta$.
 - Implement the decision function and classify the data.
