@@ -4,7 +4,7 @@
 This assignment is part of the **Pattern Recognition & Machine Learning** course and consists of four main sections, each focusing on different classification and data analysis techniques.
 
 ## Part A: Maximum Likelihood Classifier
-In this section, a **Maximum Likelihood (ML) classifier** is implemented based on frequency and key press force data from users during a game.
+This part involves the development of a **Maximum Likelihood (ML) classifier** to recognize stress in users of a video game, based on data derived from button pressure patterns. The goal is to evaluate the reliability of the variable $x$. This evaluation is based on data from 12 users, 7 of whom did not feel stressed and 5 felt stressed.
 
 ### Implementation Steps:
 - Estimate parameters using the ML method.
