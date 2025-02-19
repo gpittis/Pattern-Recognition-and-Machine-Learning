@@ -11,8 +11,8 @@ This part involves the development of a **Maximum Likelihood (ML) classifier** t
   - For class ${\omega}_1$, the data is: ${D}_1$ = $[2.8,−0.4,−0.8,2.3,−0.3,3.6,4.1]$
   - For class ${\omega}_2$, the data is: ${D}_2$ = $[−4.5,−3.4,−3.1,−3.0,−2.3]$
 - Plot $\log( p({D}_1 | \theta))$ and $\log( p({D}_2 | \theta))$ as functions of $\theta$
-
-
+- Use the discriminant function :
+  - $g(x) = \log P(x | \hat{\theta}_1) - \log P(x | \hat{\theta}_2) + \log P(\omega_1) - \log P(\omega_2)$
 
 
 - Visualize log-likelihood functions as a function of $\theta$.
