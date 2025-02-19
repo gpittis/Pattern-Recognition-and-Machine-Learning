@@ -8,7 +8,7 @@ In this section, a **Maximum Likelihood (ML) classifier** is implemented based o
 
 ### Implementation Steps:
 - Estimate parameters using the ML method.
-- Visualize log-likelihood functions as a function of $\theta$.
+- Visualize log-likelihood functions as a **function of $\theta$.**
 - Implement the decision function and classify the data.
 - Analyze and visualize the results.
 
