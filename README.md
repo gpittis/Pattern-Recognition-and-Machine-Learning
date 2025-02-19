@@ -13,7 +13,7 @@ In this section, a **Maximum Likelihood (ML) classifier** is implemented based o
 - Analyze and visualize the results.
 
 ## Part B: Bayesian Parameter Estimation
-Extending the previous approach by estimating the unknown parameter \theta$ using **Bayesian inference**.
+Extending the previous approach by estimating the unknown parameter $\theta$ using **Bayesian inference**.
 
 ### Implementation Steps:
 - Compute the posterior distribution $p(\theta|D)$.
