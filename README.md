@@ -10,7 +10,11 @@ This part involves the development of a **Maximum Likelihood (ML) classifier** t
 - Estimate the parameters $\hat{\theta}_1$ and $\hat{\theta}_2$ using the ML classifier for both classes:
   - For class ${\omega}_1$, the data is: ${D}_1$ = $[2.8,−0.4,−0.8,2.3,−0.3,3.6,4.1]$
   - For class ${\omega}_2$, the data is: ${D}_2$ = $[−4.5,−3.4,−3.1,−3.0,−2.3]$
-- Estimate parameters using the ML method.
+- Plot $\log p({D}_1 | \theta)$ and $\log p({D}_2 | \theta)$ as functions of $\theta$
+
+
+
+
 - Visualize log-likelihood functions as a function of $\theta$.
 - Implement the decision function and classify the data.
 - Analyze and visualize the results.
