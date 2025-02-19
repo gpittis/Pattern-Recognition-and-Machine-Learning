@@ -35,7 +35,7 @@ Part B is an extension of Part A. In this part, we implement a **Bayesian classi
   - All samples were classified correctly
 
 ## Part C: Decision Tree Vs Random Forest
-Use of the **Iris dataset** from the sklearn library and application of two classification algorithms:
+Use of the **Iris dataset** from the **sklearn library** and application of two classification algorithms:
 - **Decision Tree**
 - **Random Forest**
 
