@@ -40,8 +40,8 @@ Use of the **Iris dataset** from the **sklearn library** and application of two 
 - **Random Forest**
 
 ### Section 1: Decision Tree
-- Isolation of the first two features of the dataset
-- Use of the Decision Tree classifier
++ Isolation of the first two features of the dataset
++ Use of the Decision Tree classifier
 - Training on 50% of the data
 - Evaluation on the remaining 50% of the data
 - Finding the best classification accuracy
