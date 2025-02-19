@@ -25,6 +25,7 @@ Part B is an extension of Part A. In this part, we implement a **Bayesian classi
 ### Implementation Steps:
 - Plotting of the posterior probability densities $p(\theta|D_1)$ and $p(\theta|D_2)$.
 - Plotting of the prior probability density $p(\theta)$
+- Observation of the relationship between the posterior probabilities and the prior $p(\theta)$
 - Implement a **Bayesian classifier** using the decision function:
 
  $h(x)$ = $\log P(x | D_1)$ - $\log P(x | D_2)$ + $\log P(\omega_1)$ - $\log P(\omega_2)$
