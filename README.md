@@ -61,21 +61,28 @@ Use of the **Iris dataset** from the **sklearn library** and application of two 
 ## Part D: Classification Algorithm Development
 
 - **Training Set**:  
-  - `datasetTV.csv` as the training set.  
+  - `datasetTV.csv` 
   - 8743 samples with 224 features per sample, followed by a label (1,...,5) in the last column.
  
 - **Test Set**:  
-  - `datasetTest.csv` as the test set.  
+  - `datasetTest.csv`
   - 6955 samples without provided labels.
   
-- **Task**:  
-  - Classification algorithm using any chosen method.  
-  - Optional feature preprocessing as deemed necessary.
+- **Implementation Steps**:  
+  - Classification Algorithms Used in Part D:
+    - k-Nearest Neighbors
+    - Gaussian Naive Bayes
+    - Multinomial Logistic Regression
+    - Decision Trees
+    - Random Forest
+    - MLP (Multilayer Perceptron)
+    - SVM (Support Vector Machine)
+  - Training of classification algorithms on the training set
+  - Determination of the best model for each classification algorithm
+  - Finding the overall best model
+  - Application of PCA (Principal Component Analysis) method to the overall best model
+  - Application of the final, trained model to the test set.
+  - Extraction of a vector named labels25.npy, representing the labels
   
-- **Model Application**:  
-  - Application of the final, trained model to the test set.  
-  - Extraction of a vector `labelsX` representing the predicted labels.
-
-
 ## Collaborator
 - [Anastasis Gourdomichalis](https://github.com/anasgourd)  
