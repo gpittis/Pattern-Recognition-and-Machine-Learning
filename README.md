@@ -49,9 +49,9 @@ Use of the **Iris dataset** from the **sklearn library** and application of two 
 - Plotting the decision boundaries of the classifier for the best result 
 
 ### Section 2: Random Forest
-- Creation of a Random Forest classifier with $100$ trees using the Bootstrap technique
+- Creation of a Random Forest classifier with 100 trees using the Bootstrap technique
 - 50% of the samples from the previous training set are denoted as set A
-- Creation of 100 new training sets (one for each tree), with each set using  $\gamma = 50{%}$ of set A
+- Creation of 100 new training sets (one for each tree), with each set using  $\gamma$ = 50% of set A
 - Evaluation of the algorithm using the set classified in the previous section
 - Consistency of the maximum depth across all trees
 - Finding the best classification accuracy
