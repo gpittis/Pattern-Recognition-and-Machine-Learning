@@ -13,9 +13,7 @@ This part involves the development of a **Maximum Likelihood (ML) classifier** t
 - Plot $\log( p({D}_1 | \theta))$ and $\log( p({D}_2 | \theta))$ as functions of $\theta$
 - Use the discriminant function :
   - $g(x) = \log P(x | \hat{\theta}_1) - \log P(x | \hat{\theta}_2) + \log P(\omega_1) - \log P(\omega_2)$
-
-
-- Visualize log-likelihood functions as a function of $\theta$.
+- And classify the two sets of values.
 - Implement the decision function and classify the data.
 - Analyze and visualize the results.
 
