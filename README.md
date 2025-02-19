@@ -88,5 +88,11 @@ Use of the **Iris dataset** from the **sklearn library** and application of two 
 - The file `Team25-AC.ipynb` contains the solutions for parts A, B, and C
 - The file `Team25-D.ipynb` contains the solution for part D
 
+## src folder contains :
+- `Team25-AC.ipynb`
+- `Team25-D.ipynb`
+- `datasetTV.csv`
+- `datasetTest.csv`
+
 ## Collaborator
 - [Anastasis Gourdomichalis](https://github.com/anasgourd)  
