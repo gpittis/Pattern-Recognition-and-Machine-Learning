@@ -39,6 +39,8 @@ Use of the **Iris dataset** from the **sklearn library** and application of two 
 - **Decision Tree**
 - **Random Forest**
 
+### Implementation Steps:
+
 ### Section 1: Decision Tree
 - Isolation of the first two features of the dataset
 - Use of the Decision Tree classifier
