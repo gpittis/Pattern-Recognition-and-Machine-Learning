@@ -26,11 +26,13 @@ Part B is an extension of Part A. In this part, we implement a **Bayesian classi
 - Plotting of the posterior probability densities $p(\theta|D_1)$ and $p(\theta|D_2)$.
 - Plotting of the prior probability density $p(\theta)$
 - Observation of the relationship between the posterior probabilities and the prior $p(\theta)$
-- Implement a **Bayesian classifier** using the decision function:
-
- $h(x)$ = $\log P(x | D_1)$ - $\log P(x | D_2)$ + $\log P(\omega_1)$ - $\log P(\omega_2)$
-
-- Compare **ML** and **Bayesian** methods.
+- Application of the discriminant function :
+  - $h(x)$ = $\log P(x | D_1)$ - $\log P(x | D_2)$ + $\log P(\omega_1)$ - $\log P(\omega_2)$
+- And Classification of the two sets of values.
+- Plotting of $h(x)$ alongside the samples
+  - The decision boundary is : $h(x) = 0$
+- Evaluation of the classification performance
+  - All samples were classified correctly
 
 ## Part C: Iris Classification
 Using the **Iris dataset** from the `sklearn` library and applying two classification methods.
