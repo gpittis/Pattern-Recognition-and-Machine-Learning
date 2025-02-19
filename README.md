@@ -47,5 +47,5 @@ Using the dataset **TV.csv** to train a classifier with **8743 samples** and **2
 - Evaluate the model on **datasetTest.csv**.
 - Export predictions as a **numpy array**.
 
-## Author
-**[Your Name]**  
+## Collaborator
+- [Anastasis Gourdomichalis](https://github.com/anasgourd)  
